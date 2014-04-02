@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>cordova-bridge.Windows</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.2.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+
+    <!-- cordova-bridge.Windows references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+</head>
+<body>
+
+    <x-ms-webview id="webView" src="" style="width: 100%; height: 100%;"></x-ms-webview>
+
+
+
+
+
+
+
+
+    <script src="js/cordova.js"></script>
+    <script src="js/cordova-bridge-clinet.js"></script>
+
+    <script>
+        // example qickstart http://msdn.microsoft.com/en-us/library/windows/apps/hh465448.aspx
+
+        //setting up the receiver for notification
+        WV.addEventListener('MSWebViewFrameNavigationStarting', function (e) {
+            var eventData = e.uri.split('EVENT=');
+            if (eventData[1] === 'NOTIFICATION') {
+
+
+                var notifications = Windows.UI.Notifications;
+                var template = notifications.ToastTemplateType.toastImageAndText01;
+                var toastXml = notifications.ToastNotificationManager.getTemplateContent(template);
+                var toastTextElements = toastXml.getElementsByTagName("text");
+
+                //add in the code that is passed up from the webview
+                toastTextElements[0].appendChild(toastXml.createTextNode(unescape(eventData[2])));
+
+                var toastImageElements = toastXml.getElementsByTagName("image");
+                //set the image I want for the toast
+                toastImageElements[0].setAttribute("src", "ms-appx:///images/smalllogo.scale-100.png");
+
+                var toast = new notifications.ToastNotification(toastXml);
+                var toastNotifier = notifications.ToastNotificationManager.createToastNotifier();
+
+                // Handle activation as required for your app, using the launch string.
+                toastNotifier.show(toast);
+
+            }
+
+
+
+        });
+
+
+
+    </script>
+
+
+
+</body>
+</html>

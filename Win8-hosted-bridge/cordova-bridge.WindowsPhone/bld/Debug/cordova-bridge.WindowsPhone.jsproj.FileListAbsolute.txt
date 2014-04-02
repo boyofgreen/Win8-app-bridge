@@ -1,0 +1,15 @@
+C:\Users\jeffburt\Documents\GitHub\Win8-Cordova-Bridge\cordova-bridge\cordova-bridge.WindowsPhone\bin\Debug\ReverseMap\resources.pri
+C:\Users\jeffburt\Documents\GitHub\Win8-Cordova-Bridge\cordova-bridge\cordova-bridge.WindowsPhone\bin\Debug\AppxManifest.xml
+C:\Users\jeffburt\Documents\GitHub\Win8-Cordova-Bridge\cordova-bridge\cordova-bridge.WindowsPhone\bin\Debug\cordova-bridge.WindowsPhone.build.appxrecipe
+C:\Users\jeffburt\Documents\GitHub\Win8-Cordova-Bridge\cordova-bridge\cordova-bridge.WindowsPhone\bld\Debug\priconfig.xml
+C:\Users\jeffburt\Documents\GitHub\Win8-Cordova-Bridge\cordova-bridge\cordova-bridge.WindowsPhone\bld\Debug\priconfig.xml.intermediate
+C:\Users\jeffburt\Documents\GitHub\Win8-Cordova-Bridge\cordova-bridge\cordova-bridge.WindowsPhone\bld\Debug\layout.resfiles
+C:\Users\jeffburt\Documents\GitHub\Win8-Cordova-Bridge\cordova-bridge\cordova-bridge.WindowsPhone\bld\Debug\layout.resfiles.intermediate
+C:\Users\jeffburt\Documents\GitHub\Win8-Cordova-Bridge\cordova-bridge\cordova-bridge.WindowsPhone\bld\Debug\resources.resfiles
+C:\Users\jeffburt\Documents\GitHub\Win8-Cordova-Bridge\cordova-bridge\cordova-bridge.WindowsPhone\bld\Debug\resources.resfiles.intermediate
+C:\Users\jeffburt\Documents\GitHub\Win8-Cordova-Bridge\cordova-bridge\cordova-bridge.WindowsPhone\bld\Debug\pri.resfiles
+C:\Users\jeffburt\Documents\GitHub\Win8-Cordova-Bridge\cordova-bridge\cordova-bridge.WindowsPhone\bld\Debug\pri.resfiles.intermediate
+C:\Users\jeffburt\Documents\GitHub\Win8-Cordova-Bridge\cordova-bridge\cordova-bridge.WindowsPhone\bld\Debug\qualifiers.txt
+C:\Users\jeffburt\Documents\GitHub\Win8-Cordova-Bridge\cordova-bridge\cordova-bridge.WindowsPhone\bld\Debug\qualifiers.txt.intermediate
+C:\Users\jeffburt\Documents\GitHub\Win8-Cordova-Bridge\cordova-bridge\cordova-bridge.WindowsPhone\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\jeffburt\Documents\GitHub\Win8-Cordova-Bridge\cordova-bridge\cordova-bridge.WindowsPhone\bld\Debug\ProjectArchitectures.txt

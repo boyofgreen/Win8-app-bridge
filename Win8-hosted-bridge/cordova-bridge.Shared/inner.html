@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>INNER</title>
+
+</head>
+<body>
+    <iframe style="width:1px;height:1px" id="eventBecon" src="becon.html" ></iframe>
+  <p>WebView Content</p> 
+    <p id="deviceState">NOT READY</p> 
+    <p id="geoState">GEO NOT READY</p>
+
+
+    <script>
+        var EB = document.getElementById('eventBecon');
+        //ready event bridge
+        var ReadyEvent = document.createEvent('Event');
+        ReadyEvent.initEvent("deviceready", true, false);
+        // Dispatch the event.
+        var deviceReady = function () {
+            console.log('fire device ready ++++++++++');
+            document.dispatchEvent(ReadyEvent);
+        };
+
+   
+
+
+        //geolocation bridge 
+        
+        navigator.geolocation = {};
+        //set up event from result of real geo
+        var geoEvent = document.createEvent('Event');
+        geoEvent.initEvent("geoEvent", true, false);
+        var geoReady = function (evtObj) { document.dispatchEvent(geoEvent, evtObj) };
+        //set up false geoobject
+        navigator.geolocation.getCurrentPosition = function (success, error, options) {
+            console.log();
+            EB.src = 'becon.html?EVENT=geoEvent';
+            document.addEventListener('geoEvent', function (e) {
+                setTimeout(success, 0, geoobj);
+            });
+
+        };
+
+    </script>
+    <script src="js/test.js"></script>
+
+</body>
+</html>
