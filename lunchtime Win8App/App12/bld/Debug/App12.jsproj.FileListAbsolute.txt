@@ -1,0 +1,30 @@
+C:\Users\jeffburt\documents\visual studio 2013\Projects\App12\App12\bin\Debug\ReverseMap\resources.pri
+C:\Users\jeffburt\documents\visual studio 2013\Projects\App12\App12\bin\Debug\AppxManifest.xml
+C:\Users\jeffburt\documents\visual studio 2013\Projects\App12\App12\bin\Debug\App12.build.appxrecipe
+C:\Users\jeffburt\documents\visual studio 2013\Projects\App12\App12\bld\Debug\priconfig.xml
+C:\Users\jeffburt\documents\visual studio 2013\Projects\App12\App12\bld\Debug\priconfig.xml.intermediate
+C:\Users\jeffburt\documents\visual studio 2013\Projects\App12\App12\bld\Debug\layout.resfiles
+C:\Users\jeffburt\documents\visual studio 2013\Projects\App12\App12\bld\Debug\layout.resfiles.intermediate
+C:\Users\jeffburt\documents\visual studio 2013\Projects\App12\App12\bld\Debug\resources.resfiles
+C:\Users\jeffburt\documents\visual studio 2013\Projects\App12\App12\bld\Debug\resources.resfiles.intermediate
+C:\Users\jeffburt\documents\visual studio 2013\Projects\App12\App12\bld\Debug\pri.resfiles
+C:\Users\jeffburt\documents\visual studio 2013\Projects\App12\App12\bld\Debug\pri.resfiles.intermediate
+C:\Users\jeffburt\documents\visual studio 2013\Projects\App12\App12\bld\Debug\qualifiers.txt
+C:\Users\jeffburt\documents\visual studio 2013\Projects\App12\App12\bld\Debug\qualifiers.txt.intermediate
+C:\Users\jeffburt\documents\visual studio 2013\Projects\App12\App12\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\jeffburt\documents\visual studio 2013\Projects\App12\App12\bld\Debug\ProjectArchitectures.txt
+C:\Users\jeffburt\Documents\GitHub\Win8-app-bridge\lunchtime Win8App\App12\bin\Debug\ReverseMap\resources.pri
+C:\Users\jeffburt\Documents\GitHub\Win8-app-bridge\lunchtime Win8App\App12\bin\Debug\AppxManifest.xml
+C:\Users\jeffburt\Documents\GitHub\Win8-app-bridge\lunchtime Win8App\App12\bin\Debug\App12.build.appxrecipe
+C:\Users\jeffburt\Documents\GitHub\Win8-app-bridge\lunchtime Win8App\App12\bld\Debug\priconfig.xml
+C:\Users\jeffburt\Documents\GitHub\Win8-app-bridge\lunchtime Win8App\App12\bld\Debug\priconfig.xml.intermediate
+C:\Users\jeffburt\Documents\GitHub\Win8-app-bridge\lunchtime Win8App\App12\bld\Debug\layout.resfiles
+C:\Users\jeffburt\Documents\GitHub\Win8-app-bridge\lunchtime Win8App\App12\bld\Debug\layout.resfiles.intermediate
+C:\Users\jeffburt\Documents\GitHub\Win8-app-bridge\lunchtime Win8App\App12\bld\Debug\resources.resfiles
+C:\Users\jeffburt\Documents\GitHub\Win8-app-bridge\lunchtime Win8App\App12\bld\Debug\resources.resfiles.intermediate
+C:\Users\jeffburt\Documents\GitHub\Win8-app-bridge\lunchtime Win8App\App12\bld\Debug\pri.resfiles
+C:\Users\jeffburt\Documents\GitHub\Win8-app-bridge\lunchtime Win8App\App12\bld\Debug\pri.resfiles.intermediate
+C:\Users\jeffburt\Documents\GitHub\Win8-app-bridge\lunchtime Win8App\App12\bld\Debug\qualifiers.txt
+C:\Users\jeffburt\Documents\GitHub\Win8-app-bridge\lunchtime Win8App\App12\bld\Debug\qualifiers.txt.intermediate
+C:\Users\jeffburt\Documents\GitHub\Win8-app-bridge\lunchtime Win8App\App12\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\jeffburt\Documents\GitHub\Win8-app-bridge\lunchtime Win8App\App12\bld\Debug\ProjectArchitectures.txt

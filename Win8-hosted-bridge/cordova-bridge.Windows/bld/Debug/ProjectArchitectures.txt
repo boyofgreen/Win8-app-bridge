@@ -1,1 +1,0 @@
-C:\Users\jeffburt\Documents\GitHub\Win8-app-bridge\Win8-hosted-bridge\cordova-bridge.Windows\Win8-hosted-bridge.Windows.jsproj;neutral

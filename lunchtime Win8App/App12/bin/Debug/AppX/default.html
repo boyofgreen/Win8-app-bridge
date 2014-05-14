@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>App12</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.2.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+
+    <!-- App12 references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+</head>
+<body>
+    <x-ms-webview id="webView" src="https://teched-lunchtime.azurewebsites.net/" style="width: 100%; height: 100%;"></x-ms-webview>
+    <div data-win-control="WinJS.UI.AppBar" id="appBar"></div>
+
+    <script>
+
+
+        var WV = document.getElementById('webView');
+
+        WV.addEventListener('MSWebViewContentLoading', function (e) {
+
+
+            //make call to real geo
+            navigator.geolocation.getCurrentPosition(function (g) {
+                returnEvent(g);
+            }, function (g) { console.log('error') });
+            //inject results into webview
+            var returnEvent = function (g) {
+                var evalString = 'var geoobj = {}; geoobj.coords = {} ;geoobj.coords.longitude = ' + g.coords.longitude + '; geoobj.coords.latitude = ' + g.coords.latitude + '; navigator.geolocation = {}; navigator.geolocation.getCurrentPosition = function (success, error, options) {console.log("calling the fake geo location");setTimeout(success, 0, geoobj)}';
+
+                var eval = WV.invokeScriptAsync('eval', evalString);
+                eval.start();
+
+            };
+        });
+
+
+ 
+
+
+    </script>
+    <script src="js/pinning.js"></script>
+
+
+</body>
+</html>
